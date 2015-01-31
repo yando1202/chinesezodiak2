@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.MonyetActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:src="@drawable/monyet" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nMONYET\n\n
+Feb.02,1908 to Jan.21,1909\n
+Feb.20,1920 to Feb.07,1921\n
+Feb.06,1932 to Jan.25,1933\n
+Jan.25,1944 to Feb.12,1945\n
+Feb.12,1956 to Jan.30,1957\n
+Jan.30,1968 to Feb.16,1969\n
+Feb.16,1980 to Feb.04,1981\n
+Jan.22,2004 to Feb.08,2005\n
+Feb.08,2016 to Jan.27,2017\n
+
+\nMonyet terkenal binatang yang menyukai pesta! Menyenangkan dan energik, Shio Monyet dapat menciptakan kesenangan, aktivitas dan menggoda. Mereka benar-benar tahu bagaimana mendapatkan waktu senang dan dapat terlihat berpindah dari satu group teman ke group yang lain, menarik perhatian banyak orang. Selalu semangat, mereka di anggap sebagai selebritis dalam lingkungannya karena selera humor yang tinggi dan pemikiran yang tajam. Bahkan secara mengejutkan, Shio Monyet juga pendengar yang baik dan dapat mengatasi situasi yang menyulitkan. Sifat alami Shio ini adalah keingin tahuan yang menyebabkan mereka menjadi sangat tahu banyak hal diberbagai topic. Monyet memiliki sisi membanggakan diri sendiri dengan cara menarik perhatian rekannya melalui apa yang mereka ketahui.
+
+\n \nMonyet cenderung rentan terhadap kecelakaan karena kurangnya pertimbangan dalam berbagai hal. Kepentingan utama dari Shio ini adalah mengejar kesenangannya sendiri; ini bukan hal yang buruk hanya saja inilah sifat alami dari Monyet. Namun, sikap yang kurang berhati-hati dari Monyet dapat membawa mereka ke berbagai masalah. Dalam percintaan, Monyet menciptakan kesenangan, pecinta yang menarik ? namun itu malah dapat menghilangkan suasana romantis. Berita baiknya adalah, sikap lembut dan selera humor si Monyet dapat menjauhkan Monyet dari masalah. Mungkin tidak semua orang akan selalu menang dengan Monyet ? tapi apakah Monyet benar-benar peduli ? Dunia si Monyet, penuh dengan energi dan itu bukan untuk semua orang. Ingat, Shio ini bukan berarti kejam; namun mereka hanya sedikit ingin tahu untuk kebaikan mereka sendiri. Monyet selalu merasa butuh untuk mencoba segala sesuatu setidaknya satu kali.
+
+\n \nMonyet juga mencintai diri sendiri yang dapat membawa mereka ke berbagai masalah. Shio ini mungkin memiliki keterbatasan untuk mengontrol diri terhadap makanan, alkhol dan aktivitas menyenangkan lainnya. Adalah waktu berpesta di setiap saat bagi si Monyet, namun meskipun disaat yang menyusahkan si Monyet tahu bagaimana menyentuh hati orang tersebut. Mereka juga tidak takut mengakui kesalahan mereka, tapi setidaknya mereka coba mundur dan menyembunyikan segala sesuatu ? untuk sementara.
+
+\n \nMonyet harus belajar untuk memikirkan orang lain selain dirinya sendiri, setidaknya untuk beberapa kali. Dunia sio ini akan semakin lengkap jika mereka menyadari bahwa dunia tidak mengitari diri mereka.
+
+\n \nPasangan yang paling cocok untuk Monyet adalah Tikus dan Naga.
+                "
+                android:textSize="25dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

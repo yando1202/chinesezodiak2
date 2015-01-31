@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.KY.tugasmobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Kerbau_Activity"
+            android:label="@string/title_activity_kerbau_" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".TikusActivity"
+            android:label="@string/title_activity_tikus" >
+        </activity>
+        <activity
+            android:name=".MacanActivity"
+            android:label="@string/title_activity_macan" >
+        </activity>
+        <activity
+            android:name=".KelinciActivity"
+            android:label="@string/title_activity_kelinci" >
+        </activity>
+        <activity
+            android:name=".NagaActivity"
+            android:label="@string/title_activity_naga" >
+        </activity>
+        <activity
+            android:name=".UlarActivity"
+            android:label="@string/title_activity_ular" >
+        </activity>
+        <activity
+            android:name=".KudaActivity"
+            android:label="@string/title_activity_kuda" >
+        </activity>
+        <activity
+            android:name=".KambingActivity"
+            android:label="@string/title_activity_kambing" >
+        </activity>
+        <activity
+            android:name=".MonyetActivity"
+            android:label="@string/title_activity_monyet" >
+        </activity>
+        <activity
+            android:name=".AyamActivity"
+            android:label="@string/title_activity_ayam" >
+        </activity>
+        <activity
+            android:name=".AnjingActivity"
+            android:label="@string/title_activity_anjing" >
+        </activity>
+        <activity
+            android:name=".BabiActivity"
+            android:label="@string/title_activity_babi" >
+        </activity>
+        <activity
+            android:name=".Ayam1Activity"
+            android:label="@string/title_activity_ayam1" >
+        </activity>
+    </application>
+
+</manifest>

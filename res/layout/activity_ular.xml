@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.UlarActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.06"
+                android:src="@drawable/ular" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nULAR\n\n
+Feb.04,1905 to Jan.24,1906\n
+Jan.23,1917 to Feb.10,1918\n
+Feb.10,1929 to Jan.29,1930\n
+Jan.27,1941 to Feb.14,1942\n
+Feb.14,1953 to Feb.02,1954\n
+Feb.02,1965 to Jan.20,1966\n
+Feb.18,1977 to Feb.06,1978\n
+Feb.06,1989 to Jan.26,1990\n
+Jan.24,2001 to Feb.11,2002\n
+Feb.10,2013 to Jan.30,2014\n
+
+\nPopular dan diplomatis, Ular memiliki seni sensual untuk memperdaya musuh. Shio ini memiliki kombinasi menarik antara rasa social dan introvert, intuisi dan kemampuan berbisnis. Ular biasanya sangat beruntung dengan uang dan biasanya akan memiliki hidup yang maksimal, tak peduli bagaimana dia memandang uang; ini mungkin dikarenakan fakta bahwa Ular cenderung berhati-hati untuk menggunakan uang. Mereka lebih aktif secara mental dibandingkan fisik. Ular sering menunda segala sesuatu untuk menganalisa sebelum terjun ke segala sesuatu. Mereka menarik dan penggoda; Shio ini senang menghabiskan waktu sepanjang hari untuk membaca buku dan maka itu sering disalah artikan sebagai pemalas,
+
+\n \nUlar sering merasa tidak aman dalam diri mereka sendiri dan cenderung lebih pencemburu, kekasih yang posesif dan dapat merusak hubungan mereka. Ular juga dikenal murah hati, dan kekasih yang mencintai dengan sepenuh hati. Sedikit berbahaya dan pintar, filosofi Ular dan intuisinya secara umum lebih menguasai daripada logika dalam hal perasaan dan insting. Ular akan bergantung dengan dirinya sendiri sebelum mencari saran orang lain. Ini menjadikan Shio ini berhasil dalam semua peluang bisnis, hati-hati dan berpikir dengan jauh diperlukan untuk memulainya.
+
+\n \nUlar adalah pekerja keras (meskipun mereka tidak terlihat seperti itu) dan sangat pintar. Ular memiliki naluri yang baik, begitu mereka memulai sesuatu mereka akan berhasil. Oleh karena itu, rekan kerja dan karyawan mereka perlu mengikuti arah dari sang Ular jika tidak mau berurusan dengan dia!
+
+\n \nSecara umum, Ular adalah murah hati dan lembut, menyenangkan. Ular perlu belajar untuk rendah hati dan membangun diri sendiri. Begitu Ular menyadari kepercayaan dalam diri sendiri, mereka akan nyaman dengan dirinya sendiri
+
+\n \nPasangan paling cocok untuk Ular adalah Ayam atau Kerbau.
+                "
+                android:textSize="25dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

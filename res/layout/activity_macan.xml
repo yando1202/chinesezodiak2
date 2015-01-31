@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.MacanActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.18"
+                android:src="@drawable/macan" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nMACAN\n\n
+Feb.08,1902 to Jan.28,1903\n
+Jan.26,1914 to Feb.13,1915\n
+Feb.13,1926 to Feb.01,1927\n
+Jan.31,1938 to Feb.18,1939\n
+Feb.17,1950 to Feb.05,1951\n
+Feb.05,1962 to Jan.24,1963\n
+Jan.23,1974 to Feb.10,1975\n
+Jan.09,1986 to Jan.28,1987\n
+Jan.28,1998 to Feb.15,1999\n
+Feb.14,2010 to Feb.02,2011\n
+
+\nMacan mungkin tidak menjadi raja hutan, tapi kucing loreng ini sangat tidak lembut! Pusat perhatian dan mementingkan diri sendiri, Macan dilahirkan sebagai pemimpin. Mereka memiliki otoritas untuk menegur orang lain untuk mengikuti caranya. Meskipun mereka menyenangkan dan suka bergaul, macan terkadang suka menyendiri juga. Kepentingan utama dari Macan adalah mengikuti ambisinya dan menjaga agar tetap mengontrol.
+
+\n \nMacan sangat berani jika dibandingkan dengan yang lain dan biasanya memenangkan pertandingan, baik itu di bidang pekerjaan atau urusan ranjang. Tipu daya adalah salah satu keunggulan dari Macan. Mulia dan berhati hangat, Macan memiliki daya tarik tersendiri untuk Shio lainnya. Bukan hanya karena atraksi, Macan seringkali bertarung demi kebaikan jika hasilnya itu berguna. Lawan harus berhati-hati terhadap Shio yang satu ini.
+
+\n \nSedikit berhati-hati adalah hal yang baik untuk si Macan, karena mereka dapat mencakar tanpa peringatan terlebih dahulu. Mereka sangat moody dan sering merasa tegang dibandingkan yang lain. Mereka dapat bertindak buruk jika dalam keadaan tertekan dan mudah sekali marah tanpa mengontrol emosi. Teguran dari Shio ini dapat membuat kabur baik teman maupun musuh-musuhnya.
+
+\n \nPelajaran untuk Macan adalah menjaga segala sesuatu agar tidak terlalu ekstrim. Begitu kucing ini dapat mencari pusat dan mempengaruhi energinya, mereka dapat menyelesaikan banyak hal.
+
+\n \nPasangan yang paling cocok untuk Macan adalah Kuda atau Anjing."
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.BabiActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:src="@drawable/babi" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBABI\n\n
+Jan.30,1911 to Feb.17,1912\n
+Feb.16,1923 to Feb.04,1924\n
+Feb.04,1935 to Jan.23,1936\n
+Jan.22,1947 to Feb.09,1948\n
+Feb.08,1959 to Jan.27,1960\n
+Jan.27,1971 to Jan.15,1972\n
+Feb.13,1983 to Feb.01,1984\n
+Jan.31,1995 to Feb.18,1996\n
+Feb.18,2007 to Feb.06,2008\n
+Feb.05,2019 to Jan.24,2020\n
+
+\nBerbeda dengan reputasi buruk yang di kenal, Babi dalam Shio Cina adalah yang paling murah hati dan di hormati dalam Zodiak Cina. Babi sangat baik dan memiliki sikap dan cita rasa yang baik. Mereka memiliki banyak sekali sifat perfeksionis dalam diri mereka sehingga mereka dianggap sebagai pengganggu. Babi sangat terobsesi dengan kemewahan, dan kekayaan (termasuk sekitarnya yaitu makanan, percintaan dan lain lain). Shio ini percaya kualitas terbaik dari kemanusiaan dan pastinya tidak menganggap diri mereka sebagai arogan. Babi juga sangat memperhatikan teman dan keluarga dan bekerja keras untuk menjaga semua orang di dalam hidupnya bahagia. Membantu orang lain adalah kesenangan utama dari Babi, yang merasa terbaik jika semua orang tersenyum.
+
+\n \nSifat alami Babi akan sangat sedih jika tidak ada orang sekitar yang menghargainya. Babi juga sangat murah hati mereka dapat muncul sebagai seorang yang memiliki sifat malaikat; ini dapat membawa mereka ke jiwa yang kurang baik, dan kabar buruknya adalah Babi akan mengambil resiko! Babi menjadi teman yang luar biasa karena mereka menolak untuk melihat keburukan dari suatu hubungan, tapi hal ini dapat membuat orang lain mengambil keuntungan dari si Babi. Berbeda dengan apa yang sudah dijelaskan, Babi juga dapat menjadi sangat kejam jika di kecewakan terutama dalam bidang cinta, persahabatan atau rekan bisnis.
+
+\n \nBabi biasanya adalah individu yang sangat pandai, senang belajar, bermain dan terus mencari pengetahuan yang lebih jauh. Mereka dapat dianggap sebagai orang malas, karena kecintaan mereka terhadap hal hal yang baik; Shio ini juga sangat senang menghabiskan waktu bercinta, tidur, dan mandi dalam waktu yang lama. Babi cenderung menjadi rekan hidup yang baik karena hati emas mereka dan kecintaan mereka kepada keluarga. Meskipun begitu, mereka dapat menjadi sangat ekslusif, mencari waktu kosong kepada mereka yang sangat menghargai mereka dan tidak memperdulikan orang lain. Babi akan menyadari hidup mereka akan lebih di butuhkan jika mereka membuka diri ke berbagai tipe orang, mereka akan berkembang.
+
+\n \nPasangan yang paling cocok untuk Babi adalah Kelinci dan Kambing.
+                "
+                android:textSize="25dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

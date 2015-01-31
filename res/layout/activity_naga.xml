@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.NagaActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:src="@drawable/naga" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nNAGA\n\n
+Feb.16,1904 to Feb.03,1905\n
+Feb.03,1916 to Jan.22,1917\n
+Jan.23,1928 to Feb.09,1929\n
+Feb.08,1940 to Jan.26,1941\n
+Jan.27,1952 to Feb.13,1953\n
+Feb.13,1964 to Feb.01,1965\n
+Jan.31,1976 to Feb.17,1977\n
+Feb.17,1988 to Feb.05,1989\n
+Feb.05,2000 to Jan.22,2001\n
+Jan.23,2012 to Feb.09,2013\n
+
+\nNaga adalah salah satu shio terkuat dan paling beruntung dalam Zodiak atau astrologi Cina. Ini adalah shio yang suka memberi, cerdas dan keras kepala yang tahu apa yang mereka inginkan dan bagaimana meraih keinginan mereka. Naga memiliki beberapa sifat alami, karisma yang menarik yang memastikan mereka pasti dapat meyakinkan atau mempengaruhi pasangan dan juga sering menemukan mereka dalam pusat perhatian di segala situasi social. Bintang ini juga sangat diberkati; Naga biasanya dikenal sangat beruntung untuk masalah percintaan. Teman-teman Naga biasanaya sangat ingin mendengarkan apa yang ingin dibicarakan si Naga dan dalam memberikan nasihat atau pendapat, sang Naga lah yang dapat meraih perhatian.
+
+\n \nEgo yang sangat tinggi dimiliki Shio Naga, namun shio ini dikenal dapat memberi motivasi bagi para pengikutnya. Menurut legenda Naga, adalah sifat alami mereka dilahirkan untuk memimpin jalan. Karena mereka beruntung, biasanya Naga memiliki kesempatan yang baik dalam meraih materi yang dapat mensejahterahkan sepanjang kehidupan mereka, meskipun bukan berarti hanya uang yang menjadi motivasi dari Shio ini. Kekuasaan adalah apa yang diinginkan Naga. Shio Naga biasanya dikenal cukup oportunis, selamanya mencari jalan untuk mendapatkan kekuasaan. Sesuai dengan sifatnya, Naga memiliki kelemahan yaitu tidak dapat menerima kondisi jika mereka berada dalam posisi yang dikalahkan.
+
+\n \nFungsi sebagai pemimpin adalah apa yang diinginkan sang naga. Mereka juga pejuang yang baik, tahu apa yang dibutuhkan untuk meraih tingkat tertinggi. Bersaing dengan Naga juga bukan ide yang baik ? monster ini dapat membakar! Pelajaran berharga untuk shio ini adalah kemampuan untuk menerima fleksibilitas, dan toleransi. Menjadi tinggi dan berkuasa dapat menginspirasikan orang lain, namun juga menjadikan Naga hidup berjuang penuh. Jika Naga dapat belajar untuk menyeimbangkan hidup mereka dengan memberikan penghargaan untuk setiap hal kecil, hidup mereka akan menjadi lebih berarti.
+
+\n \nPasangan yang paling cocok untuk Naga adalah Monyet atau Tikus
+                "
+                android:textSize="25dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

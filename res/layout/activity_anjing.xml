@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.AnjingActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:src="@drawable/anjing" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nANJING\n\n
+Feb.10,1910 to Jan.29,1911\n
+Jan.28,1922 to Feb.13,1923\n
+Feb.14,1934 to Feb.03,1935\n
+Feb.02,1946 to Jan.21,1947\n
+Feb.18,1958 to Feb.07,1959\n
+Feb.06,1970 to Jan.26,1971\n
+Jan.25,1982 to Feb.12,1983\n
+Feb.10,1994 to Jan.30,1995\n
+Jan.29,2006 to Feb.17,2007\n
+Feb.19,2018 to Feb.04,2019\n
+
+\nDi dunia barat, Anjing dikenal sebagai sahabat terbaik manusia, namun dalam astrologi Cina - shio ini sedikit tidak dapat diprediksi seperti pada umumnya. Mereka yang berada dalam shio ini biasanya setia, dapat dipercaya dan jujur dan selalu patuh terhadap aturan. Namun, shio Anjing agak sulit dalam mempercayai orang lain. Mereka biasanya lebih mempercayai diri sendiri kecuali berbohong untuk kebaikan, Shio Anjing ini biasanya mengatakan apa adanya agar menghindari masalah di kemudian hari. Shio Anjing dapat menjadi teman yang luar biasa, menjaga rahasia dan setia (terlepas dari white lies) dan pendengar yang baik. Shio ini cenderung menjadi sumber dari mereka yang tidak diperhitungkan. Prinsip hidup shio anjing biasanya adalah Hidup dengan Benar, cari orang kecil yang membutuhkan bantuan dan berjuang terhadap ketidakadilan kapan pun dimungkinkan.
+
+\n \nShip Anjing dapat menjadi sedikit dogmatis juga. Mereka jarang bergaul dalam kehidupan sosial, sebaliknya mereka langsung menjuju ke rumah, hanya bergaul terhadap topik yang dianggap penting untuk mereka. Kali ini Shio Anjing yang berpikiran sempit atau keras kepala dapat muncul; shio ini sulit untuk tetap tenang dan berpikir jernih jika ada suatu masalah yang datang. Shio ini juga dapat menjadi sangat temperamenl kehidupan emosionalnya sering berubah-ubah dan seringkali mereka menyendiri untuk menyelesaikan masalah. Sebagian dari masalah adalah hasil dari Shio ini terhadap ketakutan yang tidak masuk di akal yang menjadikan keingintahuan. Mereka yang ada dalam Shio yang sensitif ini perlu untuk menjaga relasi terhadap orang lain dan secara perlahan mempercayai mereka. Tanpa fondasi kepercayaan, Shio Anjing dapat menilai yang buruk terhadap orang lain.
+
+\n \nSifat alami shio anjing membuat mereka menjadi personal businessman yang luar biasa, seseorang yang dapat mengatur segala sesuatu, sifat alami untuk mengatur motivasi dari orang lain. Mengenai masalah cinta, Anjing biasanya membutuhkan waktu yang lama untuk mencari orang yang tepat. Mereka dapat menjadi sangat ingin tahu sehingga malah membuat pasangannya terganggu. Dalam segala forum, Shio ini paling senang jika dapat secara fisik aktif; baik itu di rumah atau di kantor, Anjing akan selalu membuat hal baru atau membersihkan segala sesuatu untuk membuat hal menjadi lebih baik. Shio anjing perlu bekerja untuk mengontrol kekhawatiran mereka, yang biasanya malah mempengaruhi orang yang mereka cintai.
+
+\n \nPasangan yang paling cocok untuk Anjing adalah Macan atau Kuda.
+                "
+                android:textSize="25dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

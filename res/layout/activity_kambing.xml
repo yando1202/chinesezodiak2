@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.KambingActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.24"
+                android:src="@drawable/kambing" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nKAMBING\n\n
+Feb.13,1907 to Feb.01,1908\n
+Feb.01,1919 to Feb.19,1920\n
+Feb.17,1931 to Feb.05,1932\n
+Jan.05,1943 to Jan.24,1944\n
+Jan.24,1955 to Feb.11,1956\n
+Feb.09,1967 to Jan.28,1968\n
+Jan.28,1979 to Feb.15,1980\n
+Feb.15,1991 to Feb.03,1992\n
+Feb.01,2003 to Jan.21,2004\n
+Feb.19,2015 to Feb.07,2016\n
+
+\nBermimpi sepanjang hari adalah kesukaan dari Shio Kambing. Shio yang kreatif dan misterius ini membutuhkan banyak waktu dalam kesendiriannya untuk berpikir. Kambing biasanya paling nyaman dalam pemikiran mereka sendiri. Shio ini sangat cocok bergerak dalam bidang seni. Kambing cenderung untuk tidak terlalu teratur dan tidak terlalu materialistic secara umum, mencari kekayaan dalam imajinasi mereka. Namun, dalm hal cinta, Kambing dapat menjadi royal dalam memberikan hadiah.
+
+\n \nMungkin temperamen yang artistic yang menyebabkan Kambing sering merasa tidak aman, mereka sangat perlu dicintai dan diakui. Untuk alasan ini, Kambing memiliki kesulitan dalam hal percintaan; semua orang yang memiliki pasangan Kambing perlu tahu, Shio ini memiliki hal yang sensitive dan dapat menjadi sangat ingin tahu terhadap hal-hal yang tidak wajar. Kambing membutuhkan banyak cinta, dukungan dan keterbukaan dari pasangannya. Jika hubungan ditandai dengan konflik, Kambing biasanya mundur ? baik secara fisik ataupun hanya sekedar melarikan diri untuk kembali berimajinasi.
+
+\n \nJika masalah cinta berjalan dengan baik, Kambing tidak ragu-ragu untuk memberitahu pasangannya ? dan mereka dapat benar-benar serius terhadap hal tersebut. Shio ini tentunya akan memberikan bantuan, namun; Kambing biasanya memiliki sisi kemewahan yang tinggi. Penampilan juga sangat penting bagi Kambing, yang juga dapat menjelaskan mengapa mereak dapat menghabiskan waktu dalam merias diri.
+
+\n \nKambing dapat menjadi terkontrol dengan cara belajar untuk relaks dan membiarkan segala sesuatu berjalan dari waktu ke waktu. Begitu mereka yakin bahwa teman dan kekasih mereka tidak meninggalkan mereka, mereka akan meninggalkan hari-hari penuh mimpi.
+
+\n \nPasangan yang paling cocok adalah Babi atau Kelinci.
+                "
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

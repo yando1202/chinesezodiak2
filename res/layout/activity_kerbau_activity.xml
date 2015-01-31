@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.Kerbau_Activity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kerbau" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nKERBAU\n\n
+Feb.19,1901 to Feb.07,1902\n
+Feb.06,1913 to Jan.25,1914\n
+Jan.25,1925 to Feb.12,1926\n
+Feb.11,1937 to Jan.30,1938\n
+Jan.29,1949 to Feb.16,1950\n
+Feb.15,1961 to Feb.04,1962\n
+Feb.03,1973 to Jan.22,1974\n
+Feb.20,1985 to Feb.08,1986\n
+Feb.07,1997 to Feb.27,1998\n
+Jan.26,2009 to Feb.13,2010\n
+
+\nKerbau dalam zodiac Cina bukanlah banteng. Berdedikasi dan solid, Shio yang kuat ini dilahirkan sebagai pemimpin, sangat tergantung untuk meraih dan memiliki kemampuan untuk mencapai hal-hal luar biasa. Kerbau cenderung sangat metodikal dan lambat; mereka mendekati projek dengan langkah demi langkah yang menurut mereka terbaik, dan mereka tidak pernah kehilangan focus terhadap tujuannya. Mereka adalah pekerja yang tidak mengenal lelah yang sangat perhatian terhadap hal-hal kecil dan percaya untuk mengawali segala sesuatu dengan benar.
+
+\n \nDunia mungkin menganggap Kerbau sebagai orang yang terlalu serius atau tidak mampu untuk santai. Mereka memang sedikit kurang social secara alami dan cenderung menjadi introvert dalam keramaian. Yang memperburuk lagi, mereka tidak khawatir mengenai apa kata orang terhadap dirinya dan lebih memilih melakukan apa yang menurut mereke terbaik. Dibalik ketenangan itu, hidup sebagai Kerbau dapat merasa tertekan, kesepian dan tidak dapat berhubungan dengan baik dengan orang lain. Keluarga dan teman adalah sumber terbaik untuk menenangkan Kerbau, meskipun mereka tidak mengerti bagaimana membuat si Kerbau tenang. Sebagai pecinta, teman, keluarga, Kerbau menjadi teman yang penyayang, penyabar yang sangat melindungi dan dapat dipercaya.
+
+\n \nDi luar dunia, Kerbau cenderung menjadi keras kepala, dogmatis, jenis orang yang memilih jalan sendiri yang tidak mengenal konsep untuk mengalah.Kerbau tidak peduli jika ditekan, karena mereka menganggap merekalah yang terbaik dalam Shio Cina. Ada kebenaran dari teori tersebut, karena Kerbau sangat pandai, dapat dipercaya, peduli dan dihormati. Jika kamu membutuhkan kejujuran, tegar dan nasihat yang terbuka, carilah si Kerbau.
+
+\n \nPelajaran terbaik untuk si hebat Kerbau adalah untuk berjuang mengalahkan sifat alami yang membuat mereka tidak dapat dekat dengan orang lain. Jika mereka dapat belajar untuk menghargai kualitas diri, mereka akan memiliki ruang di hati orang lain.
+
+\n \nPasangan yang cocok untuk Kerbau adalah Ular atau Ayam."
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

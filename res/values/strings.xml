@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chinese Zodiak</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kerbau_">Chinese Zodiak</string>
+    <string name="title_activity_menu">Chinese Zodiak</string>
+    <string name="title_activity_tikus">Chinese Zodiak</string>
+    <string name="title_activity_macan">Chinese Zodiak</string>
+    <string name="title_activity_kelinci">Chinese Zodiak</string>
+    <string name="title_activity_naga">Chinese Zodiak</string>
+    <string name="title_activity_ular">Chinese Zodiak</string>
+    <string name="title_activity_kuda">Chinese Zodiak</string>
+    <string name="title_activity_kambing">Chinese Zodiak</string>
+    <string name="title_activity_monyet">Chinese Zodiak</string>
+    <string name="title_activity_ayam">Chinese Zodiak</string>
+    <string name="title_activity_anjing">Chinese Zodiak</string>
+    <string name="title_activity_babi">Chinese Zodiak</string>
+    <string name="title_activity_ayam1">Chinese Zodiak</string>
+
+</resources>

@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaperawal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.MenuActivity" >
+
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="97dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_gravity="left"
+            android:onClick="openTikus"
+            android:src="@drawable/tikusikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gridLayout1"
+        android:layout_alignRight="@+id/gridLayout1"
+        android:layout_below="@+id/gridLayout1"
+        android:layout_marginTop="31dp" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_gravity="left"
+            android:onClick="openKelinci"
+            android:src="@drawable/kelinciikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gridLayout2"
+        android:layout_alignRight="@+id/gridLayout2"
+        android:layout_below="@+id/gridLayout2"
+        android:layout_marginTop="31dp" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_gravity="left"
+            android:onClick="openKuda"
+            android:src="@drawable/kudaikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gridLayout3"
+        android:layout_below="@+id/gridLayout3"
+        android:layout_marginTop="30dp" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_gravity="left"
+            android:onClick="openAyam"
+            android:src="@drawable/ayamikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gridLayout1"
+        android:layout_alignTop="@+id/gridLayout1"
+        android:layout_marginLeft="95dp"
+        android:layout_toRightOf="@+id/gridLayout1" >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_gravity="left"
+            android:onClick="openKerbau"
+            android:src="@drawable/kerbauikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout2"
+        android:layout_alignTop="@+id/gridLayout4"
+        android:layout_marginLeft="95dp"
+        android:layout_toRightOf="@+id/gridLayout4" >
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_gravity="left"
+            android:onClick="openMacan"
+            android:src="@drawable/macanikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gridLayout2"
+        android:layout_alignLeft="@+id/gridLayout4"
+        android:layout_alignRight="@+id/gridLayout4"
+        android:layout_alignTop="@+id/gridLayout2" >
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_gravity="left"
+            android:onClick="openNaga"
+            android:src="@drawable/nagaikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout3"
+        android:layout_alignLeft="@+id/gridLayout6"
+        android:layout_alignRight="@+id/gridLayout6"
+        android:layout_alignTop="@+id/gridLayout5" >
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_gravity="left"
+            android:onClick="openUlar"
+            android:src="@drawable/ularikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout7"
+        android:layout_alignLeft="@+id/gridLayout5"
+        android:layout_alignTop="@+id/gridLayout3"
+        android:layout_toLeftOf="@+id/gridLayout6" >
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_gravity="left"
+            android:onClick="openKambing"
+            android:src="@drawable/kambingikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout9"
+        android:layout_alignLeft="@+id/gridLayout8"
+        android:layout_alignRight="@+id/gridLayout8"
+        android:layout_alignTop="@+id/gridLayout7" >
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_gravity="left"
+            android:onClick="openMonyet"
+            android:src="@drawable/monyetikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gridLayout9"
+        android:layout_alignLeft="@+id/gridLayout7"
+        android:layout_alignTop="@+id/gridLayout9"
+        android:layout_toLeftOf="@+id/gridLayout6" >
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_gravity="left"
+            android:onClick="openAnjing"
+            android:src="@drawable/anjingikon" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gridLayout10"
+        android:layout_alignLeft="@+id/gridLayout11"
+        android:layout_alignRight="@+id/gridLayout11"
+        android:layout_alignTop="@+id/gridLayout10" >
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_gravity="left"
+            android:onClick="openBabi"
+            android:src="@drawable/babiikon" />
+
+    </GridLayout>
+
+</RelativeLayout>

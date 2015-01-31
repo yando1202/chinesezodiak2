@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.KudaActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.08"
+                android:src="@drawable/kuda" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nKUDA\n\n
+Jan.25,1906 to Feb.12,1907\n
+Feb.11,1918 to Jan.31,1919\n
+Jan.30,1930 to Feb.16,1931\n
+Jan.15,1942 to Feb.04 1943\n
+Feb.03,1954 to Jan.23,1955\n
+Jan.21,1966 to Feb.08,1967\n
+Feb.07,1978 to Jan.27,1979\n
+Jan.27,1990 to Feb.14,1991\n
+Feb.12,2002 to Jan.31,2003\n
+Jan.31,2014 to Feb.18,2015\n
+
+\nBerterima kasih terhadap ruangan terbuka, karena Kuda membutuhkan sekali ruangan untuk bergerak. Engergik, Shio Kuda dikenal sangat nomaden, berpindah dari satu tempat ke tempat lain. Semua aktifitas ini mungkin untuk memenuhi hasrat alami mereka. Mereka juga menuntut kebebasan dan kemerdekaan.
+
+\n \nKuda membutuhkan cinta dan keintiman, yang kemudian menjadi pedang bermata dua karena dapat menjebak mereka sendiri. Hubungan cinta cenderung mudah datang ke Shio ini. Shio ini cenderung untuk datang ke hubungan yang kuat. Biasanya kuda adalah penggoda. Anehnya kuda biasanya tertutup tehadap pasangannya, meskipun dia sering menjadi pusat perhatian di lingkungannya.
+
+\n \nSifat yang kurang sabar dari Kuda dapat menjadikan mereka agak sensitif. Mereka cenderung mengambil alih situasi daripada menunggu orang lain yang datang dengan sendirinya. Sifat pengembara sendiri dari Kuda dapat membuat mereka dikucilkan, namun ini juga membuat Shio Kuda menjadi lebih kuat dan itulah kunci keberhasilan mereka. Mereka tidak menyukai rutinitas.
+
+\n \nKuda cenderung untuk tidak melihat terlalu banyak kepada gambaran besar; sebaliknya mereka hanya mengikuti naluri saja, dimana hal ini dapat membahayakan hubungan, pekerjaan, projek dan lain lain. Shio ini juga tahu bagaimana memotivasi orang lain. Begitu mereka menemukan kedamaian dalam diri mereka, mereka dapat menghargai apa yang sudah mereka miliki dan orang-orang disekelilngnya.
+
+\n \nPasangan yang paling cocok untuk Kuda adalah Anjing dan Macan
+                "
+                android:textSize="25dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

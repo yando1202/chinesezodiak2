@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waltulisan"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KY.tugasmobile.KelinciActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.23"
+                android:src="@drawable/kelinci" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nKELINCI\n\n
+Jan.29,1903 to Feb.15,1904\n
+Feb.14,1915 to Feb.16,1916\n
+Feb.02,1927 to Jan.22,1928\n
+Feb.19,1939 to Feb.07,1940\n
+Feb.06,1951 to Jan.26,1952\n
+Jan.25,1963 to Feb.12,1964\n
+Feb.11,1975 to Jan.30,1976\n
+Jan.29,1987 to Feb.16,1988\n
+Feb.16,1999 to Feb.04,2000\n
+Feb.03,2011 to Jan.22,2012\n
+
+\nPemalu dan atraktif, Shio Kelinci cenderung berperilaku seperti kelinci, suka ataupun tidak! Shio ini sangat popular dan memiliki keluarga besar dan teman. Melengkapi nalurinya untuk melindungi orang yang disayangi, berhubungan dengan masalah romantika, Kelinci selalu memiliki idelistik terhadap hubungan. Kelinci yang sensitive dan manis sering berakhir dengan memberikan lebih ke rekan tanpa memperdulikan realitas atau kesehatan. Kabar baiknya adalah, jika Kelinci sedang tidak seimbang, teman-teman mereka akan mendukung dan mengembalikan keseimbangan hidupnya.
+
+\n \nKelinci adalah Shio yang rapuh yang membutuhkan dasar yang kuat untuk berjuang. Tanpa teman atau keluarga yang mendukung, Kelinci dapat gagal dan kecewa untuk setiap konflik yang terjadi. Rasa sedih yang dialami Kelinci juga dapat menimbulkan penyakit. Kelinci tidak menyukai argument dan konflik lain dan akan mencoba apapun untuk menhindari suatu perkelahian; hasilnya adalah mereka selalu merasa tersisihkan. Kelinci dapat juga menjadi pesimis dan terlihat tidak berkembang kehidupannya seringkali menyembunyikan kelemahannya. Kelinci cenderung bergerak belajar melalui kehidupan sendiri; yang seringkali membuang-buang waktu karena Shio ini tidak tertarik menghadapi masalah dan mengatasinya.
+
+\n \nDengan rekan yang tepat artinya seseorang yang memiliki prinsip tinggi agar tidak ada orang yang mengambil keuntungan dari SHio sensitive ini. Kelinci dapat menjadi pecinta yang baik dan rekan yang melindungi. Kelinci senang untuk menghibur di rumah dan selalu memastikan rumah mereka nyaman. Apa yang diperlukan Kelinci adalah menghargai diri sendiri dan pastinya rasa aman akan datang.
+
+\n \nPasangan yang paling cocok untuk Kelinci adalah Kambing dan Babi.
+"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
